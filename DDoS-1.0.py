@@ -55,7 +55,8 @@ from socket import *
 from struct import *
 from threading import *
 from argparse import ArgumentParser,RawTextHelpFormatter
-import requests,colorama
+import requests
+import colorama
 from termcolor import colored, cprint
 
 signal.signal(signal.SIGPIPE,signal.SIG_DFL)
