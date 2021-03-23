@@ -194,7 +194,7 @@ class slow:
 			except KeyboardInterrupt:
 				break
 				sys.exit(cprint('[+] Attack canceled by user','red'))
-		print colored('We\'ve sent ','green') + colored(str(self.pkt_count),'cyan') + colored(' packets successfully. We\'re sleeping for ','green') + colored(self.sleep,'red') + colored(' seconds','green')
+		print colored('We\'ve sent '),'green') + colored(str(self.pkt_count),('cyan') + colored(' packets successfully. We\'re sleeping for '),('green') + colored(self.sleep ,'red') + colored(' seconds'),('green')
 		time.sleep(self.sleep)
 
 class Requester(Thread):
